@@ -10,7 +10,7 @@
 
 - [Terraform](https://www.terraform.io/downloads.html) 0.12+
 - [Go](https://golang.org/doc/install) 1.22.7 (to build the provider plugin)
-- [cloudability-sdk-go](https://github.com/skyscrapr/cloudability-sdk-go) 
+- [cloudability-sdk-go](https://github.com/kubiieo/cloudability-sdk-go) 
 
 ## Installing the Provider
 

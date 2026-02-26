@@ -2,10 +2,11 @@ package cloudability
 
 import (
 	"encoding/json"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/skyscrapr/cloudability-sdk-go/cloudability"
 	"log"
 	"time"
+
+	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/kubiieo/cloudability-sdk-go/cloudability"
 )
 
 func resourceMasterAccount() *schema.Resource {

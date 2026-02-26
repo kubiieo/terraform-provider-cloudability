@@ -7,7 +7,7 @@ import (
 	// 	// 	"regexp"
 	// 	// 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	// "github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	// "github.com/skyscrapr/cloudability-sdk-go/cloudability"
+	// "github.com/kubiieo/cloudability-sdk-go/cloudability"
 	"net/http"
 	"net/http/httptest"
 	"net/url"

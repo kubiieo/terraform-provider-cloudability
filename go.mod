@@ -1,14 +1,12 @@
-module github.com/skyscrapr/terraform-provider-cloudability
+module github.com/kubiieo/terraform-provider-cloudability
 
 go 1.22.7
-
-// replace github.com/skyscrapr/cloudability-sdk-go => ../cloudability-sdk-go
 
 require (
 	github.com/hashicorp/terraform-plugin-log v0.9.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.35.0
 	github.com/hashicorp/terraform-plugin-testing v1.2.0
-	github.com/skyscrapr/cloudability-sdk-go v0.0.14
+	github.com/kubiieo/cloudability-sdk-go v0.0.1
 )
 
 require (

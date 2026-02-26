@@ -2,18 +2,20 @@ package cloudability
 
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/skyscrapr/cloudability-sdk-go/cloudability"
+	"github.com/kubiieo/cloudability-sdk-go/cloudability"
 )
 
 // Config - Provider Config
 type Config struct {
 	APIKey string
+	Region string
 }
 
 // NewConfig - Return a new Config instance
 func NewConfig(d *schema.ResourceData) *Config {
 	c := &Config{
 		APIKey: d.Get("apikey").(string),
+		Region: d.Get("region").(string),
 	}
 	return c
 }

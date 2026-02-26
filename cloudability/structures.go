@@ -1,7 +1,7 @@
 package cloudability
 
 import (
-	"github.com/skyscrapr/cloudability-sdk-go/cloudability"
+	"github.com/kubiieo/cloudability-sdk-go/cloudability"
 )
 
 func flattenVerification(in *cloudability.Verification) []map[string]interface{} {

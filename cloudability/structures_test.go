@@ -1,9 +1,10 @@
 package cloudability
 
 import (
-	"github.com/skyscrapr/cloudability-sdk-go/cloudability"
 	"reflect"
 	"testing"
+
+	"github.com/kubiieo/cloudability-sdk-go/cloudability"
 )
 
 func TestFlattenVerfication(t *testing.T) {
