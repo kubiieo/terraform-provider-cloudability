@@ -14,6 +14,12 @@ func Provider() *schema.Provider {
 				Description: "The apikey for API operations",
 				DefaultFunc: schema.EnvDefaultFunc("CLOUDABILITY_APIKEY", nil),
 			},
+			"region": {
+				Type:        schema.TypeString,
+				Optional:    true,
+				Description: "Region for API endpoint",
+				Default:     "us",
+			},
 		},
 		DataSourcesMap: map[string]*schema.Resource{
 			"cloudability_account_verification": dataSourceAccountVerification(),
