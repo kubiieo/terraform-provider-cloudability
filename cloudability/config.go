@@ -22,6 +22,6 @@ func NewConfig(d *schema.ResourceData) *Config {
 
 // Client - Retrun a new Cloudabiity Client instance
 func (c *Config) Client() *cloudability.Client {
-	client := cloudability.NewClient(c.APIKey)
+	client := cloudability.NewClient(c.APIKey, c.Region)
 	return client
 }
