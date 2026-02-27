@@ -72,3 +72,7 @@ You can also download the latest binary for your target platform from the [relea
         region = "au"
     }
   ```
+
+## Terraform provider release
+
+- GPG keys located in 1pass.
